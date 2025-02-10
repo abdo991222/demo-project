@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/project-angular1": {},
+    "/project-angular1/about": {},
+    "/project-angular1/contact": {},
+    "/project-angular1/home": {},
+    "/project-angular1/protfolio": {}
+  }
+}

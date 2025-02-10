@@ -1,0 +1,73 @@
+section{
+
+
+  width: 100%;
+color:#2C3E50 ;
+padding: 30px;
+margin-top: 130px;
+margin-bottom: 50px;
+}
+
+
+.sh1 {
+  position: relative;
+}
+.sh1::before {
+  content: "";
+  width: 90px;
+  height: 4px;
+  background-color:#2C3E50;
+  position: absolute;
+  left: -100px;
+  top: 11px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.sh2 {
+  position: relative;
+}
+.sh2::after {
+  content: "";
+  width: 90px;
+  height: 4px;
+  background-color: #2C3E50;
+  position: absolute;
+  right: -100px;
+  bottom: 6px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.modelImg{
+  position: relative;
+  width: 400px;
+}
+
+.modelButton{
+  position: absolute;
+  top: 23px;
+  right:20px ;
+}
+
+.imgAbdo:hover{
+  opacity: 0.5;
+  transition: all 0.3s;
+  background-color: #007bff;
+
+}
+
+
+
+
+
+
+.img-hover {
+  transition: all 0.3s ease; /* يجعل الانتقال سلساً */
+}
+
+.img-hover:hover {
+  filter: brightness(70%); /* يضيف تأثير تفتيح اللون */
+  transform: scale(1.05); /* يكبر الصورة قليلاً عند التمرير */
+  border: 2px solid #007bff; /* يضيف حدود زرقاء حول الصورة عند التمرير */
+}
+

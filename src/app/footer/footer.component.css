@@ -1,0 +1,40 @@
+.footerOne{
+  background-color: #2C3E50;
+  width: 100%;
+  padding: 100px;
+  color: #ffff;
+}
+.footertwo{
+
+  background-color: #1A252F;
+  width: 100%;
+  padding: 20px 0;
+
+}
+.footertwo .footerTwoItem{
+  color: #ffff;
+}
+
+
+ul{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+ul li {
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  background-color:#2C3E50 ;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul li i{
+  font-size: 20px;
+}
